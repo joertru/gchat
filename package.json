@@ -1,14 +1,19 @@
 {
     "name": "gchat",
-    "dependencies": {
-        "electron": "^10.0.0-beta.2"
-    },
     "scripts": {
-        "start": "electron ."
+        "postinstall": "install-app-deps",
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist-win": "electron-builder --windows",
+        "dist-linux": "electron-builder --linux"
     },
     "main": "main.js",
     "version": "0.0.1",
     "license": "MIT",
     "description": "Basic Client Google Chat",
-    "author": "Jorge E <info@joertru.com>"
+    "author": "Jorge E <info@joertru.com>",
+    "devDependencies": {
+        "electron": "^10.0.0-beta.2",
+        "electron-builder": "^22.7.0"
+    }
 }
