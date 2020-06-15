@@ -5,10 +5,11 @@
         "start": "electron .",
         "pack": "electron-builder --dir",
         "dist-win": "electron-builder --windows",
-        "dist-linux": "electron-builder --linux"
+        "dist-linux": "electron-builder --linux",
+        "dist-mac": "electron-builder --mac"
     },
     "main": "main.js",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "license": "MIT",
     "description": "Basic Client Google Chat",
     "author": "Jorge E <info@joertru.com>",
