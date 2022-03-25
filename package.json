@@ -14,7 +14,7 @@
     "description": "Basic Client Google Chat",
     "author": "Jorge E <info@joertru.com>",
     "devDependencies": {
-        "electron": "^10.0.0-beta.2",
+        "electron": "^13.6.6",
         "electron-builder": "^22.7.0"
     }
 }
